@@ -1,0 +1,55 @@
+/*what we doing*/
+
+@media screen and (max-width: 768px){
+  .what-we-doing-section{
+    display: none;
+  }
+
+}
+.what-we-doing-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.what-we-doing {
+  display: block;
+  margin: auto;
+}
+.what-we-doing-img-list {
+  display: flex;
+}
+.what-we-doing-img {
+    position: relative;
+  }
+  .desktop-app {
+    position: absolute;
+    bottom: 0;
+    padding: 27px 53px;
+    width: 370px;
+    height: 70px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: rgba(47, 48, 58, 0.8);
+  }
+  .what-we-doing-h2 {
+    margin-bottom: 50px;
+    // display: flex;
+    // justify-content: center;
+    min-width: 376px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.166;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+  }
+  .what-we-doing-img:not(:last-child) {
+    margin-right: 30px;
+  }
+  
+  /*what we doing end*/

@@ -1,0 +1,104 @@
+.benefits-list-item::before {
+  // width: 270px;
+  height: 120px;
+  display: block;
+  content: " ";
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media screen and (max-width: 768px){
+  .benefits-list-item::before{
+   width: 100%;
+  }
+}
+.benefits-list-item.icon-antena::before {
+  background-image: url(../../imagine/antenna1.svg);
+}
+.benefits-list-item.icon-clock::before {
+  background-image: url(../../imagine/clock1.svg);
+}
+.benefits-list-item.icon-diagram::before {
+  background-image: url(../../imagine/diagram1.svg);
+}
+.benefits-list-item.icon-astronaut::before {
+  background-image: url(../../imagine/astronaut1.svg);
+}
+// .benefits-list-item:not(:last-child) {
+//   margin-right: 30px;
+//   }
+//   @media screen and (max-width: 480px){
+//     .benefits-list-item:not(:last-child){
+//       margin-right: 0;
+//     }
+//   }
+
+
+.benefits {
+  // width: 1200px;
+  padding-top: 94px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: auto;
+}
+@media screen and (max-width: 768px){
+  .benefits {
+  padding: 60px 15px;
+  }
+}
+@media screen and (min-width: 768px){
+.benefits-list {
+  display: flex;  
+  flex-wrap: wrap;
+  margin: -15px;
+}
+//   }
+//  .benefits-list-item:not(:last-child) {
+//     margin-right: 15px;
+    
+
+ .benefits-list-item{
+  width: calc((100% - 4*15px)/2);
+  margin: 15px;
+  height: 251px;
+
+ }
+}
+@media screen and (min-width: 1200px){
+  .benefits-list-item{
+  width: calc((100% - 8*15px)/4);
+  
+  
+  }
+}
+// @media screen and (min-width: 1200px){
+//   .benefits-list{
+//     margin: -15px;
+//   }
+
+// }
+
+.benefits-h2 {
+  margin-bottom: 10px;
+  min-width: 270px;
+  margin-top: 30px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--text-p);
+}
+@media screen and (max-width: 480px){
+  .benefits-h2{
+    text-align: center;
+  }
+}
+.benefits-p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}

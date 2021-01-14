@@ -1,0 +1,228 @@
+/*footer*/
+.footer-adress-map {
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+  }
+  .adress-mail-footer,
+  .adress-tel-footer {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+  }
+   .footer-adress {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .footer-adress-map,
+  .adress-mail-footer {
+    margin-bottom: 9px;
+  }
+
+  @media screen and (max-width: 768px){
+    .all-footer{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 60px;
+    }
+  }
+  @media screen and (min-width: 1200px){
+    .all-footer{
+      display: flex;
+    }
+  }
+  .footer {
+    flex-grow: 1;
+    background-color: #2f303a;
+    // margin: auto;
+  
+   .our-team-socil-item {
+    fill: #ffffff;
+  }
+   .li-class {
+    background: rgba(255, 255, 255, 0.1);
+ 
+     &:hover,
+     &:focus {
+    background: var(--accent-color);
+  }
+}
+@media screen and (max-width: 480px){
+  .our-team-socil-links{
+    margin-left: 0;
+    padding-bottom: 0;
+     }
+}
+   
+     
+ }
+  .logo-adress {
+    padding-bottom: 60px;
+    padding-top: 60px;
+    margin-right: 70px;
+  @media screen and (max-width: 480px){
+    margin:auto;
+    text-align: center;
+  }
+  @media screen and (min-width: 1200px){
+    margin: 0;
+    text-align: left;
+    padding: 0;
+    padding-top: 60px;
+    margin-right: 70px;
+  }
+  }
+  .logo-white {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+  }
+  .appeal {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+    // @media screen and (max-width: 480px){
+    //   text-align: center;
+    //   display: inline-block;
+    // }
+
+  }
+  @media screen and (min-width: 1200px){
+    .footer-appeal{
+      padding-top: 72px;
+    }
+  }
+  
+    
+
+  
+  .social-link-b {
+    padding-top: 72px;
+    margin-right: 93px;
+    @media screen and (max-width: 480px){
+    padding-top: 0;
+    padding-bottom: 60px;
+    margin-right: 0;
+    text-align: center;
+    @media screen and (max-width: 480px){
+      padding-top: 72px;
+      margin-right: 93px;
+    }
+
+    }
+  }
+  // .all-footer {
+  //   display: flex;
+  //   align-items: baseline;
+  // }
+  .social-item {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .footer-adress-map,
+  .adress-mail-footer,
+  .adress-tel-footer {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .footer-form{
+  //  display: flex;
+   margin-top: 16px;
+   @media screen and (max-width: 480px){
+    margin-top: 20px;
+   }
+   @media screen and (min-width: 1200px){
+    display: flex;
+   }
+   
+  }
+  
+  .footer-label{
+    margin-right: 12px;
+    @media screen and (max-width: 480px){
+      margin-bottom: 20px;
+
+    }
+  }
+  .footer-input{
+    padding-left: 16px;
+   display: flex;
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background: #2F303A;
+  
+    &::placeholder{
+   font-family: "Roboto", sans-serif;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1.25;
+   align-items: center;
+   letter-spacing: 0.03em;
+   color: rgba(255, 255, 255, 0.6);
+   padding-top: 15px;
+   padding-bottom: 15px;
+     }
+  }
+  @media screen and (max-width: 480px){
+    .footer-input{
+      width: 100%;
+      }
+  }
+  @media screen and (min-width: 1200px){
+    .footer-input{
+      width: 358px;
+      }
+  }
+  .footer-button{
+    padding: 0;
+  width: 200px;
+  height: 50px;
+  background: #2196F3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  }
+  .subscribe{
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  margin-right: 10px;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
+  }
+  
+  .subscribe-btn{
+    display: flex;
+    align-items: center;
+    padding-left: 29px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+  }
+  .litak{
+    fill: #FFFFFF;
+  }
+  .footer-soc-link:not(:last-child) {
+    margin-right: 10px;
+  }
+  
+  /*footer end*/
