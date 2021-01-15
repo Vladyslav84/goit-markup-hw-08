@@ -108,13 +108,17 @@
 
 
    .logo-blue {
-    //  justify-content: center;
+   
    font-weight: 700;
     font-style: normal;
     font-size: 26px;
     line-height: 1.192;
     letter-spacing: 0.03em;
     color: #2196f3;
+    @media screen and (max-width: 1200px){
+    justify-content: center;
+    }
+   
   }
     .logo-black {
     font-weight: 700;
