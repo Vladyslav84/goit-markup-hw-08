@@ -17,8 +17,8 @@
 <body>
     <!--Header-->
 
-    <header class="header conteiner">
-        <div class="navigation-adress ">
+ <!-- <header class="header">
+        <div class="navigation-adress container">
             <nav class="navigation">
                 <a href="#" class="navigation-link"><span class="logo-blue">Web<span class="logo-black">Studio</span></a>
                 <ul class="navigation-menu">
@@ -45,15 +45,15 @@ href="./imagine/symbol-defs.svg#icon-tell"></use>
                 </div>
             </address>
         </div>
-    </header>
+    </header>  -->
 
     <!--main section-->
     <main class="section-main">
         <!--HERO-->
         <section>
             <div class="hero-foto">
-                <div class="section-hero conteiner">
-                    <h1 class="section-h1"> эффективные решения <br>
+                <div class="section-hero">
+                    <h1 class="section-h1"> эффективные решения<br>
 для вашего бизнеса</h1>
                     <button class="modal-btn-header"
 type="button" data-modal-open>Заказать услугу</button>
@@ -63,8 +63,8 @@ type="button" data-modal-open>Заказать услугу</button>
         </section>
         <!--benefits-->
 
-        <section class="benefits">
-            <div class="conteiner">
+        <section class="benefits container">
+            <div >
                 <h2 class="benefits-h2" hidden> Benefits</h2>
                 <ul class="benefits-list">
                     <li class="benefits-list-item icon-antena">
@@ -97,7 +97,7 @@ type="button" data-modal-open>Заказать услугу</button>
                     </li>
                 </ul>
             </div>
-        </section>
+        </section> 
 
 
         <!-- what we doing-->
@@ -105,25 +105,29 @@ type="button" data-modal-open>Заказать услугу</button>
             <div class="what-we-doing conteiner">
                 <h2 class="what-we-doing-h2">Чем мы занимаемся</h2>
                 <ul class="what-we-doing-img-list">
-                    <li class="what-we-doing-img"><img src="./imagine/what we doing/box1.jpg" width="370" alt="людина працює закомпом">
+                    <li class="what-we-doing-img"><img src="./imagine/wwd/box1.jpg" width="370" alt="людина працює закомпом">
                     <p class="desktop-app">Десктопные приложения</p></li>
                     <li class="what-we-doing-img"><img
-src="./imagine/what we doing/box2.jpg" width="370"
+src="./imagine/wwd/box2.jpg" width="370"
                             alt="людина працює за компом і зтелефоном"><p class="desktop-app">Мобильные приложения</p></li>
                     <li class="what-we-doing-img"><img
-src="./imagine/what we doing/box3.jpg" width="370"
+src="./imagine/wwd/box3.jpg" width="370"
                             alt="людина працює з планшетом"><p class="desktop-app">Дизайнерские решения</p></li>
                 </ul>
             </div>
         </section>
         <!--Team-->
 
-        <section class="team-section">
-            <div class="div-our-team conteiner">
+        <section class="team-section container">
+            <div class="div-our-team">
                 <h2 class="our-team">Наша команда</h2>
                 <ul class="our-team-list">
-                    <li class="our-team-img"><img
-src="./imagine/team/img1.jpg" width="270" alt="фото Игоря Демьяненко">
+                    <li class="our-team-img">
+                        <picture>
+                            <source srcset="./imagine/team/img1.jpg 1x, ./imagine/team/img1@2x.jpg 2x" media="(min-widht: 768px)">
+                            <source srcset="./imagine/team/img1.jpg 1x, ./imagine/team/img1@2x.jpg 2x" media="(min-widht: 480px)">
+                                               
+                            <img src="./imagine/team/img1.jpg"  alt="фото Игоря Демьяненко"></picture>
                         <h3 class="our-team-h3"> Игорь Демьяненко</h3>
                         <p class="our-team-p" lang="en">Designer</P>
                             <ul class="our-team-socil-links">
@@ -142,8 +146,12 @@ src="./imagine/team/img1.jpg" width="270" alt="фото Игоря Демьян�
         </svg></a> </li>
                             </ul>
                     </li>
-                    <li class="our-team-img"><img
-src="./imagine/team/img2.jpg" width="270" alt="фото Игоря Демьяненко">
+                    <li class="our-team-img">
+                        <picture>
+                            <source srcset="./imagine/team/img2.jpg 1x, ./imagine/team/img2@2x.jpg 2x" media="(min-widht: 768px)">
+                            <source srcset="./imagine/team/img2.jpg 1x, ./imagine/team/img2@2x.jpg 2x," media="(min-widht: 480px)">
+                            <img src="./imagine/team/img2.jpg"  alt="фото Ольги Репипой">
+                        </picture>
                         <h3 class="our-team-h3"> Ольга Репина</h3>
                         <p class="our-team-p" lang="en">Frontend Developer</p>
                         <ul class="our-team-socil-links">
@@ -162,8 +170,12 @@ src="./imagine/team/img2.jpg" width="270" alt="фото Игоря Демьян�
         </svg></a> </li>
                         </ul>
                     </li>
-                    <li class="our-team-img"><img
-src="./imagine/team/img3.jpg" width="270" alt="фото Николай Тарасов">
+                    <li class="our-team-img">
+                        <picture>
+                        <source srcset="./imagine/team/img3.jpg 1x, ./imagine/team/img3@2x.jpg 2x" media="(min-widht: 768px)">
+                        <source srcset="./imagine/team/img3.jpg 1x, ./imagine/team/img3@2x.jpg 2x," media="(min-widht: 480px)">
+                        <img src="./imagine/team/img3.jpg"  alt="фото Николай Тарасов">
+                        </picture>
                         <h3 class="our-team-h3"> Николай Тарасов</h3>
                         <p class="our-team-p" lang="en">Marketing</p>
                         <ul class="our-team-socil-links">
@@ -182,8 +194,12 @@ src="./imagine/team/img3.jpg" width="270" alt="фото Николай Тара�
         </svg></a> </li>
                         </ul>
                     </li>
-                    <li class="our-team-img"><img
-src="./imagine/team/img4.jpg" width="270" alt="фото Михаил Ермаков">
+                    <li class="our-team-img">
+                        <picture>
+                        <source srcset="./imagine/team/img4.jpg 1x, ./imagine/team/img4@2x.jpg 2x" media="(min-widht: 768px)">
+                        <source srcset="./imagine/team/img4.jpg 1x, ./imagine/team/img4@2x.jpg 2x," media="(min-widht: 480px)">
+                        <img src="./imagine/team/img4.jpg" alt="фото Михаил Ермаков">
+                        </picture>
                         <h3 class="our-team-h3"> Михаил Ермаков</h3>
                         <p class="our-team-p" lang="en">Designer</p>
                         <ul class="our-team-socil-links">
@@ -214,22 +230,22 @@ href="./imagine/symbol-defs.svg#icon-link"></use>
             </div>
         </section>
         <!-- regular client -->
-        <section class="regular-client">
-            <div class="regular-client-div conteiner">
+         <!-- <section class="regular-client"> -->
+            <div class="regular-client-div container">
                 <h3 class="our-team"> Постоянные клиенты</h3>
                 <ul class="regular-client-logo">
  <li class="regular-client-link">
      <a href="#" class="regular-client-img"><svg class="svg-logo1" width="45" height="50">
          <use href="./imagine/symbol-defs.svg#icon-logo1"></use>
                             </svg></a>
-                    </li>
-                    <li class="regular-client-link"><a
+                    </li class="regular-client-link">
+                    <li ><a
 href="#" class="regular-client-img"><svg class="svg-logo1" width="45" height="52">
                                 <use
 href="./imagine/symbol-defs.svg#icon-logo2"></use>
                             </svg></a>
                     </li>
-                    <li class="regular-client-link"><a
+                    <li ><a
 href="#" class="regular-client-img"><svg class="svg-logo1" width="41" height="43">
                                 <use
 href="./imagine/symbol-defs.svg#icon-logo3"></use>
@@ -256,13 +272,13 @@ href="./imagine/symbol-defs.svg#icon-logo6"></use>
                 </ul>
             </div>
 
-        </section>
+        </section> 
 
     </main>
 
 
     <!--Footer-->
-    <footer class="footer">
+    <!-- <footer class="footer">
         <div class="all-footer conteiner">
             <div class="logo-adress">
                 <a href="#" class="navigation-link footer"><span class="logo-blue">Web<span class="logo-white">Studio</span></a>
@@ -295,20 +311,21 @@ href="./imagine/symbol-defs.svg#icon-logo6"></use>
                             </svg></a> </li>
                 </ul>      
                  </div>
-                   <div class="footer-appeal">
-                    <b class="appeal">Подпишитесь на рассылку</b>
-                    <form class="footer-form">
-                    <label class="footer-label"><input type="email" class="footer-input" placeholder="E-mail" name="e-mail"/></label>
-                    <button class="footer-button" type="button"><span class="subscribe-btn"><span class="subscribe">Подписаться</span><svg class="litak" width="24" height="24">
-                     <use href="./imagine/symbol-defs.svg#icon-litak"></use>
-                    </svg></span></button>
-                    </form>
-                    </div>
-                </div>
+                   <div>
+                                  <b class="appeal">Подпишитесь на рассылку</b>
+                                 <form class="footer-form">
+                                   <label class="footer-label"><input type="email" class="footer-input" placeholder="E-mail" name="e-mail"/></label>
+                                     <button class="footer-button" type="button"><span class="subscribe-btn"><span class="subscribe">Подписаться</span><svg class="litak" width="24" height="24">
+                                        <use
+                                href="./imagine/symbol-defs.svg#icon-litak"></use>
+                                    </svg></span></button>
+                                </form>
+                                </div>
+        </div>
             
-    </footer>
+    </footer> -->
     <!-- Модальне вікно -->
-    <div class="backdrop is-hidden" data-modal>
+    <!-- <div class="backdrop is-hidden" data-modal>
         <div class="modalka"> 
         <button type="button" class="modalka-btn" data-modal-close><svg class="close-svg" width="11px" height="11px">
             <use
@@ -355,7 +372,7 @@ href="./imagine/symbol-defs.svg#icon-logo6"></use>
           </form>
            </div>   
            
-    </div>
+    </div> -->
     <script src="./modal.js"></script>
 
     <!-- Для відправки данних в консоль -->
@@ -370,6 +387,23 @@ href="./imagine/symbol-defs.svg#icon-logo6"></use>
   });
 })();
     </script>
+
+<!-- burger_menu -->
+<!-- (() => {
+    const menuBtnRef = document.querySelector("[data-menu-button]");
+    const mobileMenuRef = document.querySelector("[data-menu]");
+  
+    menuBtnRef.addEventListener("click", () => {
+      const expanded =
+        menuBtnRef.getAttribute("aria-expanded") === "true" || false;
+  
+      menuBtnRef.classList.toggle("is-open");
+      menuBtnRef.setAttribute("aria-expanded", !expanded);
+  
+      mobileMenuRef.classList.toggle("is-open");
+    });
+  })(); -->
+  
 
 </body>
 

@@ -1,22 +1,4 @@
 /*what we doing*/
-
-@media screen and (max-width: 768px){
-  .what-we-doing-section{
-    display: none;
-  }
-
-}
-.what-we-doing-section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-.what-we-doing {
-  display: block;
-  margin: auto;
-}
-.what-we-doing-img-list {
-  display: flex;
-}
 .what-we-doing-img {
     position: relative;
   }
@@ -38,8 +20,8 @@
   }
   .what-we-doing-h2 {
     margin-bottom: 50px;
-    // display: flex;
-    // justify-content: center;
+    display: flex;
+    justify-content: center;
     min-width: 376px;
     font-weight: 700;
     font-size: 36px;
@@ -50,6 +32,21 @@
   }
   .what-we-doing-img:not(:last-child) {
     margin-right: 30px;
+  }
+  .what-we-doing-section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    @media screen and (max-width: 1200px){
+      display: none;
+    }
+    
+  }
+  .what-we-doing {
+    display: block;
+  }
+  .what-we-doing-img-list {
+    display: flex;
+    
   }
   
   /*what we doing end*/
