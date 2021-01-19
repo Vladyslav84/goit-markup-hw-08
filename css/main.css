@@ -329,23 +329,25 @@ a {
 }
 
 .benefits-list-item.icon-antena::before {
-  background-image: url(../../imagine/antenna1.svg);
+  background-image: url(../imagine/antenna1.svg);
 }
 
 .benefits-list-item.icon-clock::before {
-  background-image: url(../../imagine/clock1.svg);
+  background-image: url(../imagine/clock1.svg);
 }
 
 .benefits-list-item.icon-diagram::before {
-  background-image: url(../../imagine/diagram1.svg);
+  background-image: url(../imagine/diagram1.svg);
 }
 
 .benefits-list-item.icon-astronaut::before {
-  background-image: url(../../imagine/astronaut1.svg);
+  background-image: url(../imagine/astronaut1.svg);
 }
 
-.benefits-list-item:not(:last-child) {
-  margin-bottom: 30px;
+@media screen and (max-width: 480px) {
+  .benefits-list-item:not(:last-child) {
+    margin-bottom: 30px;
+  }
 }
 
 .benefits-h2 {
@@ -354,6 +356,13 @@ a {
 
 .benefits {
   padding-top: 60px;
+}
+
+@media screen and (min-width: 1200px) {
+  .benefits {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -371,6 +380,13 @@ a {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .benefits-list-item {
+    width: calc((100% - 8 * 15px) /4);
+    margin: 15px;
+  }
+}
+
 .benefits-h2 {
   text-align: center;
   margin-top: 30px;
@@ -380,6 +396,12 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--text-p);
+}
+
+@media screen and (min-width: 1200px) {
+  .benefits-h2 {
+    text-align: left;
+  }
 }
 
 .benefits-p {
@@ -462,6 +484,8 @@ a {
 @media screen and (max-width: 768px) {
   .our-team {
     margin-bottom: 30px;
+    font-size: 28px;
+    line-height: 1.178;
   }
 }
 
