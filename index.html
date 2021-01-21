@@ -17,10 +17,10 @@
 <body>
     <!--Header-->
 
- <!-- <header class="header">
-        <div class="navigation-adress container">
+ <header class="header">
+        <div class="navigation-adress">
             <nav class="navigation">
-                <a href="#" class="navigation-link"><span class="logo-blue">Web<span class="logo-black">Studio</span></a>
+               <a href="#" class="navigation-link"><span class="logo-blue">Web<span class="logo-black">Studio</span></a>
                 <ul class="navigation-menu">
                     <li class="navigation-item"><a href="#"
 class="link-to-swith studio current">Студия</a></li>
@@ -29,7 +29,7 @@ href="./portfolio.html" class="link-to-swith">Портфолио</a></li>
                     <li class="navigation-item"><a href="#"
 class="link-to-swith">Контакты</a></li>
                 </ul>
-            </nav>
+              </nav>
             <address class="header-adress">
                 <div class="header-adress-logo">
                     <a class="adress-mail-header" href="mailto:info@devstudio.com"><svg class="header-adress-icon"
@@ -44,8 +44,39 @@ href="./imagine/symbol-defs.svg#icon-tell"></use>
                         </svg> +38 096 111 11 11</a>
                 </div>
             </address>
+            <button type="button" class="header-burger-menu is-open" data-menu-button>
+                <svg width="40" 
+                     height="40"
+                     aria-label="перемикач мобільного меню">
+                     <use class="icon-menu" href="./imagine/symbol-defs.svg#icon-close"></use>
+                    <use class="icon-close" href="./imagine/symbol-defs.svg#icon-menu"></use>
+                   
+                </svg>
+            </button>
+            <div class="header-mobile-menu" data-menu>
+                <ul class="header-mobile-menu-list">
+                    <li class="navigation-item studio"><a href="#"
+class="link-to-swith studio current">Студия</a></li>
+                    <li class="navigation-item portfolio"><a
+href="./portfolio.html" class="link-to-swith">Портфолио</a></li>
+                    <li class="navigation-item"><a href="#"
+class="link-to-swith">Контакты</a></li>
+                </ul>  
+                <div class="header-adress-logo">
+                    <a class="adress-mail-header" href="mailto:info@devstudio.com"><svg class="header-adress-icon"
+                            width="16" height="12">
+                            <use
+href="./imagine/symbol-defs.svg#icon-mail"></use>
+                        </svg>info@devstudio.com</a>
+                    <a class="adress-tel-header" href="tel:+380961111111">
+                        <svg class="header-adress-icon" width="10" height="16">
+                            <use
+href="./imagine/symbol-defs.svg#icon-tell"></use>
+                        </svg> +38 096 111 11 11</a>
+                </div>
+            </div>
         </div>
-    </header>  -->
+    </header> 
 
     <!--main section-->
     <main class="section-main">
@@ -102,7 +133,7 @@ type="button" data-modal-open>Заказать услугу</button>
 
         <!-- what we doing-->
         <section class="what-we-doing-section">
-            <div class="what-we-doing conteiner">
+            <div class="what-we-doing container">
                 <h2 class="what-we-doing-h2">Чем мы занимаемся</h2>
                 <ul class="what-we-doing-img-list">
                     <li class="what-we-doing-img"><img src="./imagine/wwd/box1.jpg" width="370" alt="людина працює закомпом">
@@ -326,9 +357,9 @@ href="./imagine/symbol-defs.svg#icon-logo6"></use>
             </div>
         </div>
             
-    </footer> -->
+    </footer>
     <!-- Модальне вікно -->
-    <!-- <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop is-hidden" data-modal>
         <div class="modalka"> 
         <button type="button" class="modalka-btn" data-modal-close><svg class="close-svg" width="11px" height="11px">
             <use
@@ -379,7 +410,7 @@ href="./imagine/symbol-defs.svg#icon-logo6"></use>
     <script src="./modal.js"></script>
 
     <!-- Для відправки данних в консоль -->
-    <script>
+    <!-- <script>
         (() => {
   document.querySelector('.js-speaker-form').addEventListener('submit', e => {
     e.preventDefault();
@@ -389,23 +420,10 @@ href="./imagine/symbol-defs.svg#icon-logo6"></use>
     );
   });
 })();
-    </script>
+    </script> -->
 
-<!-- burger_menu -->
-<!-- (() => {
-    const menuBtnRef = document.querySelector("[data-menu-button]");
-    const mobileMenuRef = document.querySelector("[data-menu]");
-  
-    menuBtnRef.addEventListener("click", () => {
-      const expanded =
-        menuBtnRef.getAttribute("aria-expanded") === "true" || false;
-  
-      menuBtnRef.classList.toggle("is-open");
-      menuBtnRef.setAttribute("aria-expanded", !expanded);
-  
-      mobileMenuRef.classList.toggle("is-open");
-    });
-  })(); -->
+
+
   
 
 </body>

@@ -17,7 +17,7 @@
 <body>
     <!--Header-->
     <header class="header-portfolio">
-        <div class="navigation-adress conteiner">
+        <div class="navigation-adress container">
             <nav class="navigation">
                 <a href="#" class="navigation-link"><span class="logo-blue">Web<span class="logo-black">Studio</span></a>
                 <ul class="navigation-menu">
@@ -43,11 +43,42 @@ href="./imagine/symbol-defs.svg#icon-tell"></use>
                         </svg> +38 096 111 11 11</a>
                 </div>
             </address>
+            <button type="button" class="header-burger-menu is-open" data-menu-button>
+                <svg width="40" 
+                     height="40"
+                     aria-label="перемикач мобільного меню">
+                     <use class="icon-menu" href="./imagine/symbol-defs.svg#icon-close"></use>
+                    <use class="icon-close" href="./imagine/symbol-defs.svg#icon-menu"></use>
+                   
+                </svg>
+            </button>
+            <div class="header-mobile-menu" data-menu>
+                <ul class="header-mobile-menu-list">
+                    <li class="navigation-item studio"><a href="#"
+class="link-to-swith studio">Студия</a></li>
+                    <li class="navigation-item portfolio"><a
+href="./portfolio.html" class="link-to-swith current">Портфолио</a></li>
+                    <li class="navigation-item"><a href="#"
+class="link-to-swith">Контакты</a></li>
+                </ul>  
+                <div class="header-adress-logo">
+                    <a class="adress-mail-header" href="mailto:info@devstudio.com"><svg class="header-adress-icon"
+                            width="16" height="12">
+                            <use
+href="./imagine/symbol-defs.svg#icon-mail"></use>
+                        </svg>info@devstudio.com</a>
+                    <a class="adress-tel-header" href="tel:+380961111111">
+                        <svg class="header-adress-icon" width="10" height="16">
+                            <use
+href="./imagine/symbol-defs.svg#icon-tell"></use>
+                        </svg> +38 096 111 11 11</a>
+                </div>
+            </div>
         </div>
     </header>
     <!--main section portfolio-->
     <main class="portfolio-main">
-        <div class="portfolio-main-div conteiner">
+        <div class="portfolio-main-div">
             <h1 hidden>Links</h1>
             <ul class="links-list">
                 <li class="link-list-btn"><button type="button"
@@ -201,51 +232,55 @@ Business</h3>
 
     <!--Footer-->
     <footer class="footer">
-        <div class="all-footer conteiner">
-            <div class="logo-adress">
-                <a href="#" class="navigation-link footer"><span class="logo-blue">Web<span class="logo-white">Studio</span></a>
-                <address class="footer-adress"> <a class="footer-adress-map" href="https://goo.gl/maps/pfqSpMcwWY89Kn897"
-                        target="_blank" rel="nofollow noopener">г.Киев,
-                        пр-т Леси Украинки, 26</a>
-                    <a class="adress-mail-footer" href="mailto:info@example.com">info@example.com</a>
-                    <a class="adress-tel-footer" href="tel:+380991111111">+38 099 111 11 11</a>
-                </address>
+        <div class="all-footer container">
+            <div class="footer-tablet">
+                <div class="logo-adress">
+                    <a href="#" class="navigation-link footer"><span class="logo-blue">Web<span class="logo-white">Studio</span></a>
+                    <address class="footer-adress"> <a class="footer-adress-map" href="https://goo.gl/maps/pfqSpMcwWY89Kn897"
+                            target="_blank" rel="nofollow noopener">г.Киев,
+                            пр-т Леси Украинки, 26</a>
+                        <a class="adress-mail-footer" href="mailto:info@example.com">info@example.com</a>
+                        <a class="adress-tel-footer" href="tel:+380991111111">+38 099 111 11 11</a>
+                    </address>
+                </div>
+                <div class="social-link-b">
+                    <b class="appeal">присоединяйтесь</b>
+                    <ul class="our-team-socil-links">
+                        <li class="footer-soc-link"><a href="#" class="li-class"> <svg class="our-team-socil-item" width="20"
+                                    height="20">
+                                    <use href="./imagine/symbol-defs.svg#icon-ins"></use>
+                                </svg></a>
+                        </li>
+                        <li class="footer-soc-link"><a href="#" class="li-class"> <svg class="our-team-socil-item" width="20"
+                                    height="20">
+                                    <use href="./imagine/symbol-defs.svg#icon-twit"></use>
+                                </svg></a> </li>
+                        <li class="footer-soc-link"><a href="#" class="li-class"> <svg class="our-team-socil-item" width="20"
+                                    height="20">
+                                    <use href="./imagine/symbol-defs.svg#icon-fb"></use>
+                                </svg></a> </li>
+                        <li class="footer-soc-link"><a href="#" class="li-class"> <svg class="our-team-socil-item" width="20"
+                                    height="20">
+                                    <use href="./imagine/symbol-defs.svg#icon-link"></use>
+                                </svg></a> </li>
+                    </ul>      
+                </div>
             </div>
-            <div class="social-link-b">
-                <b class="appeal">присоединяйтесь</b>
-                <ul class="our-team-socil-links">
-                    <li class="footer-soc-link"><a href="#" class="li-class"> <svg class="our-team-socil-item" width="20"
-                                height="20">
-                                <use href="./imagine/symbol-defs.svg#icon-ins"></use>
-                            </svg></a>
-                    </li>
-                    <li class="footer-soc-link"><a href="#" class="li-class"> <svg class="our-team-socil-item" width="20"
-                                height="20">
-                                <use href="./imagine/symbol-defs.svg#icon-twit"></use>
-                            </svg></a> </li>
-                    <li class="footer-soc-link"><a href="#" class="li-class"> <svg class="our-team-socil-item" width="20"
-                                height="20">
-                                <use href="./imagine/symbol-defs.svg#icon-fb"></use>
-                            </svg></a> </li>
-                    <liclass="footer-soc-link"><a href="#" class="li-class"> <svg class="our-team-socil-item" width="20"
-                                height="20">
-                                <use href="./imagine/symbol-defs.svg#icon-link"></use>
-                            </svg></a> </liclass=>
-                </ul>      
-                 </div>
-                   <div clas="footer-btn">
-                                  <b class="appeal">Подпишитесь на рассылку</b>
+    
+            <div class="footer-appeal">
+                        <b class="appeal">Подпишитесь на рассылку</b>
                                  <form class="footer-form">
                                    <label class="footer-label"><input type="email" class="footer-input" placeholder="E-mail" name="e-mail"/></label>
-                                     <button class="footer-button" type="button"><div class="subscribe-btn"><span class="subscribe">Подписаться</span><svg class="litak" width="24" height="24">
+                                     <button class="footer-button" type="button"><span class="subscribe-btn"><span class="subscribe">Подписаться</span><svg class="litak" width="24" height="24">
                                         <use
                                 href="./imagine/symbol-defs.svg#icon-litak"></use>
-                                    </svg></div></button>
+                                    </svg></span></button>
                                 </form>
-                                </div>
+            </div>
         </div>
             
     </footer>
+    <script src="./modal.js"></script>
 </body>
 
 </html>
