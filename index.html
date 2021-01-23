@@ -155,9 +155,12 @@ src="./imagine/wwd/box3.jpg" width="370"
                 <ul class="our-team-list">
                     <li class="our-team-img">
                         <picture>
-                            <source srcset="./imagine/team/img1.jpg 1x, ./imagine/team/img1@2x.jpg 2x" media="(min-width: 768px)">
-                            <source srcset="./imagine/team/img1.jpg 1x, ./imagine/team/img1@2x.jpg 2x," media="(min-width: 480px)">
-                                               
+                            <source srcset="./imagine/team/img1desk.webp 1x, ./imagine/team/img1desk@2x.webp 2x" media="(min-width: 1200px)" type="image/webp">
+                            <source srcset="./imagine/team/img1desk.jpg 1x, ./imagine/team/img1desk@2x.jpg 2x" media="(min-width: 1200px)">
+                            <source srcset="./imagine/team/img1tabl.webp 1x, ./imagine/team/img1tabl@2x.webp 2x" media="(min-width: 768px)"type="image/webp">
+                            <source srcset="./imagine/team/img1tabl.jpg 1x, ./imagine/team/img1tabl@2x.jpg 2x" media="(min-width: 768px)">
+                            <source srcset="./imagine/team/img1.webp 1x, ./imagine/team/img1@2x.webp 2x," media="(min-width: 480px)"type="image/webp">
+                            <source srcset="./imagine/team/img1.jpg 1x, ./imagine/team/img1@2x.jpg 2x," media="(min-width: 480px)">           
                             <img src="./imagine/team/img1.jpg"  alt="фото Игоря Демьяненко"></picture>
                         <h3 class="our-team-h3"> Игорь Демьяненко</h3>
                         <p class="our-team-p" lang="en">Designer</P>
@@ -179,7 +182,11 @@ src="./imagine/wwd/box3.jpg" width="370"
                     </li>
                     <li class="our-team-img">
                         <picture>
+                            <source srcset="./imagine/team/img2deskwp.webp 1x, ./imagine/team/img2desk@2xwp.webp 2x" media="(min-width: 1200px)" type="image/webp">
+                            <source srcset="./imagine/team/img2desk.jpg 1x, ./imagine/team/img2desk@2x.jpg 2x" media="(min-width: 1200px)">
+                            <source srcset="./imagine/team/img2tablwp.webp 1x, ./imagine/team/img2tabl@2xwp.webp 2x" media="(min-width: 768px)" type="image/webp">
                             <source srcset="./imagine/team/img2.jpg 1x, ./imagine/team/img2@2x.jpg 2x" media="(min-width: 768px)">
+                            <source srcset="./imagine/team/img2wp.webp 1x, ./imagine/team/img2wp@2x.webp 2x," media="(min-width: 480px)" type="image/webp">
                             <source srcset="./imagine/team/img2.jpg 1x, ./imagine/team/img2@2x.jpg 2x," media="(min-width: 480px)">
                             <img src="./imagine/team/img2.jpg"  alt="фото Ольги Репипой">
                         </picture>
@@ -203,7 +210,11 @@ src="./imagine/wwd/box3.jpg" width="370"
                     </li>
                     <li class="our-team-img">
                         <picture>
+                        <source srcset="./imagine/team/img3deskwp.webp 1x, ./imagine/team/img3desk@2xwp.webp 2x" media="(min-width: 1200px)" type="image/webp">
+                         <source srcset="./imagine/team/img3desk.jpg 1x, ./imagine/team/img3desk@2x.jpg 2x" media="(min-width: 1200px)">
+                        <source srcset="./imagine/team/img3tablwp.webp 1x, ./imagine/team/img3tabl@2xwp.webp 2x" media="(min-width: 768px)" type="image/webp">
                         <source srcset="./imagine/team/img3.jpg 1x, ./imagine/team/img3@2x.jpg 2x" media="(min-width: 768px)">
+                        <source srcset="./imagine/team/img3wp.webp 1x, ./imagine/team/img3wp@2x.webp 2x," media="(min-width: 480px)" type="image/webp">
                         <source srcset="./imagine/team/img3.jpg 1x, ./imagine/team/img3@2x.jpg 2x," media="(min-width: 480px)">
                         <img src="./imagine/team/img3.jpg"  alt="фото Николай Тарасов">
                         </picture>
@@ -408,9 +419,10 @@ href="./imagine/symbol-defs.svg#icon-logo6"></use>
            
     </div>
     <script src="./modal.js"></script>
+    <script src="./mobilemenu.js"></script>
 
     <!-- Для відправки данних в консоль -->
-    <!-- <script>
+     <script>
         (() => {
   document.querySelector('.js-speaker-form').addEventListener('submit', e => {
     e.preventDefault();
@@ -420,7 +432,7 @@ href="./imagine/symbol-defs.svg#icon-logo6"></use>
     );
   });
 })();
-    </script> -->
+    </script> 
 
 
 
