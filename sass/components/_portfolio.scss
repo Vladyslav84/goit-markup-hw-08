@@ -10,6 +10,14 @@
   content: "";
   background: var(--accent-color);
   border-radius: 2px;
+  @media screen and (min-width: 1200px){
+    width: 78px;
+    left: auto;
+  }
+  @media screen and (min-width: 768px){
+    width: 78px;
+    left: auto;
+  }
 }
 .header-portfolio {
   position: relative;
@@ -20,8 +28,7 @@
   border-bottom: 1px solid #ececec;
 }
 .portfolio-main {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding: 94px 15px;
     max-width: 1600px;
     margin: auto;
     @media screen and (max-width: 1199px){
@@ -131,8 +138,8 @@
   
   .portfolio-projects-link {
     display: block;
-    min-width: 370px;
-    transition-property: box-shadow;
+    // min-width: 370px;
+     transition-property: box-shadow;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     &:hover,
@@ -150,13 +157,20 @@
     border-bottom: 1px solid #eeeeee;
     padding: 20px 24px;
   }
+  .portfolio-tabl{
+    padding-top: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 56px;
+
+  }
   .portfolio-overlay {
     position: absolute;
     transition: all 500ms linear;
     left: 0;
     top: 0;
     padding: 63px 24px;
-    width: 370px;
+    width: 100%;
     height: 294px;
     font-family: "Roboto", sans-serif;
     font-weight: normal;
