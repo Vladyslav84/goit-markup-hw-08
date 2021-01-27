@@ -857,6 +857,7 @@ a {
 
 /*team-end--*/
 .regular-client {
+  max-width: 1200px;
   padding-top: 60px;
   padding-left: 15px;
   padding-right: 15px;
@@ -865,6 +866,7 @@ a {
 @media screen and (min-width: 1199px) {
   .regular-client {
     padding-top: 94px;
+    margin: 0 auto;
   }
 }
 

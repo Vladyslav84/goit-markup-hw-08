@@ -1,9 +1,11 @@
 .regular-client {
+  max-width: 1200px;
   padding-top: 60px;
   padding-left: 15px;
   padding-right: 15px;
   @media screen and (min-width: 1199px) {
     padding-top: 94px;
+    margin: 0 auto;
   }
 }
 
